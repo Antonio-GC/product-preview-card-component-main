@@ -1,114 +1,92 @@
-*
-{
-    margin: 0;    
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --Very-dark-blue: hsl(212, 21%, 14%);
-    --Dark-grayish-blue: hsl(228, 12%, 48%);
-    --White: hsl(0, 0%, 100%);
-    --Dark-cyan: hsl(158, 36%, 37%);
-    --Cream: hsl(30, 38%, 92%);
-
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
 }
-
 
 body {
-    background-color:var(--Cream) ;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    
+  background-color: var(--Cream);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 .container-card {
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
-    border-radius: 10px;
-    background-color: var(--White); 
-    box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  border-radius: 10px;
+  background-color: var(--White);
+  box-sizing: border-box;
 }
 
 .container--img {
-    grid-column: 1/2;
+  grid-column: 1/2;
 }
 
-
-
 .container--img img {
-
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  
-  
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .container--text {
-    padding: 20px;
+  padding: 20px;
 }
 
 .container--text text {
-
-    line-height: normal;
-
+  line-height: normal;
 }
-
 
 p {
-    color: var(--Dark-grayish-blue);
-    
+  color: var(--Dark-grayish-blue);
 }
 
-.precios h1{
-
-   color: var(--Dark-cyan);
+.precios h1 {
+  color: var(--Dark-cyan);
 }
 
 .precios {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.precios-text{
-    text-decoration: line-through;
+.precios-text {
+  text-decoration: line-through;
 }
 
 .container--botton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .botton {
-    background-color: var(--Dark-cyan);
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none;
-    height: 50%;
-    width: 100%;
-    
+  background-color: var(--Dark-cyan);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  height: 50%;
+  width: 100%;
 }
-
-
 
 .botton a {
-    text-decoration-line: none;
-    color: aliceblue;
+  text-decoration-line: none;
+  color: aliceblue;
 }
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
